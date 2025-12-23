@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,8 +54,13 @@ header{
   min-height:90vh;
   background:#fff;
 }
-.hero-text{padding:60px}
-.hero-text h2{font-size:42px;color:var(--primary)}
+.hero-text{
+  padding:60px;
+}
+.hero-text h2{
+  font-size:42px;
+  color:var(--primary);
+}
 .hero-text p{margin:15px 0;font-size:16px}
 .btn{
   display:inline-block;
@@ -70,14 +76,51 @@ header{
   center/cover no-repeat;
 }
 
+<!-- MEET THE DOCTOR -->
+<section>
+  <div class="title">
+    <h3>Meet the Doctor</h3>
+  </div>
+
+  <div class="split">
+
+    <img
+      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkS...MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy"
+      alt="Dr. Aarthi performing advanced dental procedure"
+    >
+
+    <div>
+      <h4>Dr. Aarthi – BDS, MDS</h4>
+      <p>
+        Dr. Aarthi is a highly experienced lady dentist with over
+        <b>10+ years</b> of clinical expertise.
+      </p>
+      <p>
+        Known for her calm, gentle, and patient-friendly approach,
+        she specializes in painless dental treatments, advanced
+        procedures, and child-friendly dental care with strict
+        sterilization standards.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
 /* SECTIONS */
 section{
   max-width:1200px;
   margin:auto;
   padding:70px 20px;
 }
-.title{text-align:center;margin-bottom:40px}
-.title h3{font-size:32px;color:var(--primary)}
+.title{
+  text-align:center;
+  margin-bottom:40px;
+}
+.title h3{
+  font-size:32px;
+  color:var(--primary);
+}
 
 /* SPLIT */
 .split{
@@ -89,7 +132,7 @@ section{
 .split img{
   width:100%;
   border-radius:25px;
-  box-shadow:0 20px 40px rgba(0,0,0,.25);
+  box-shadow:0 20px 40px rgba(0,0,0,.2);
 }
 
 /* SERVICES */
@@ -192,33 +235,19 @@ footer{
 <div class="hero">
   <div class="hero-text">
     <h2>Gentle Dental Care<br>for Kids & Families</h2>
-    <p><b>Dr. Aarthi, BDS, MDS</b><br>Lady Dentist with 10+ Years Experience</p>
-    <p>✔ Painless treatment<br>✔ Child-friendly approach<br>✔ Parents allowed</p>
+    <p>
+      <b>Dr. Aarthi, BDS, MDS</b><br>
+      Lady Dentist with 10+ Years Experience
+    </p>
+    <p>
+      ✔ Painless treatment<br>
+      ✔ Child-friendly approach<br>
+      ✔ Parents allowed during treatment
+    </p>
     <a class="btn" href="#book">Book Appointment</a>
   </div>
   <div class="hero-img"></div>
 </div>
-
-<!-- MEET THE DOCTOR -->
-<section id="doctor">
-  <div class="title"><h3>Meet the Doctor</h3></div>
-  <div class="split">
-
-    <!-- FETCHES YOUR UPLOADED IMAGE -->
-    <img src="doctor.jpg" alt="Dr. Aarthi performing dental procedure">
-
-    <div>
-      <h4>Dr. Aarthi – BDS, MDS</h4>
-      <p><strong>10+ years</strong> of experience in family & kids dentistry.</p>
-      <p>
-        Known for her calm, gentle and patient-friendly approach.
-        Specialized in painless treatments, advanced procedures,
-        and child-focused dental care with strict hygiene standards.
-      </p>
-    </div>
-
-  </div>
-</section>
 
 <!-- SERVICES -->
 <section id="services">
@@ -235,7 +264,7 @@ footer{
   </div>
 </section>
 
-<!-- REVIEWS -->
+<!-- REVIEWS (COMBINED & FIXED) -->
 <section id="reviews" style="background:#fff">
   <div class="title">
     <h3>⭐ What Our Patients Say</h3>
@@ -244,16 +273,28 @@ footer{
 
   <div class="review-container">
     <div class="review-track">
+
       <div class="review-card">
         <div class="stars">★★★★★</div>
-        <p>Painless procedure and very professional explanation.</p>
+        <p>
+          Dr. Aarthi has been very professional and highly informative in
+          explaining my dental issue and treatment options.
+          The procedure was completely painless 🙂
+        </p>
         <h4>— Cheran Deep Thota</h4>
       </div>
+
       <div class="review-card">
         <div class="stars">★★★★★</div>
-        <p>Extremely caring and comforting experience.</p>
+        <p>
+          Dr. Aarthi provided excellent care, ensuring I felt comfortable
+          and well informed throughout the treatment process.
+          Thank you ma’am for your valuable service 🙏
+        </p>
         <h4>— Abhi</h4>
-      </div>
+ 
+
+
     </div>
   </div>
 </section>
@@ -261,7 +302,9 @@ footer{
 <!-- MAP -->
 <section>
   <div class="title"><h3>Clinic Location</h3></div>
-  <iframe src="https://www.google.com/maps?q=Raj+Dental+Care+Perambur&output=embed"></iframe>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.537931612692!2d80.2132156!3d13.1174488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265b0f3c9a1ab%3A0x8d4e7a9d5a2b2b1f!2sRaj%20Dental%20Care!5e0!3m2!1sen!2sin!4v1739999999999">
+  </iframe>
 </section>
 
 <!-- BOOK -->
@@ -279,7 +322,7 @@ footer{
 <footer>
   📍 B 25, Kandasamy St, Periyar Nagar West, Perambur, Chennai – 600082<br>
   📞 98841 59596<br>
-  ⏰ Mon–Sat: 10 AM – 12 PM | 6 PM – 9 PM<br><br>
+  ⏰ Mon–Sat: 10 AM – 12 PM | 6 PM – 9 PM • Sunday Holiday<br><br>
   © 2025 Raj Dental Care
 </footer>
 
